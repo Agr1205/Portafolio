@@ -1,0 +1,210 @@
+.sobre-mi {
+    background: var(--background-azul-palido);
+}
+
+.sobre-mi__descripcion {
+    font-size: 1rem;
+    text-align: justify;
+}
+
+.sobre-mi__datos {
+    font-size: 1.2rem;
+    
+}
+
+
+/*LAYOUT PARA TABLETS*/
+@media screen and (min-width:768px) {
+    .sobre-mi {
+        background: url(../assets/backgroung__flores.jpg.jpg);
+        padding: 1.575rem 0;
+    }
+
+        .sobre-mi__div {
+            width: 75%;
+            background: var(--background-azul-palido);
+            font-family: var(--raleway);
+            padding: 2rem;
+            border: #fff solid 10px;
+            border-radius: 20px;
+        }
+
+    .sobre-mi__titulo {
+        padding-left: .75rem;
+    }
+
+    .sobre-mi__descripcion {
+        text-align: none;
+        padding-left: .75rem;
+    }
+}
+
+
+/*LAYOUT PARA DESKTOP*/
+@media screen and (min-width: 1024px) {
+    .sobre-mi__descripcion {
+        font-size: 1.2rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.sobre-mi {
+    background: url(../assets/backgroung__flores.jpg.jpg);
+    padding: 2rem;
+
+}
+
+.sobre-mi__div {
+    width: 75%;
+    background: var(--background-azul-palido);
+    font-family: var(--raleway);
+    padding: 2rem;
+    margin-left: 6rem;
+    border: #fff solid 10px;
+    border-radius: 20px;
+
+    
+}
+
+.sobre-mi__titulo {
+    padding: 1rem 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: left;
+} 
+
+.sobre-mi__descripcion {
+    width: 80%;
+    line-height: 1rem;
+    text-align: justify;
+}
+
+@media screen and (max-width: 768px) {
+    .sobre-mi {
+        padding: 1rem 0;
+        background: var(--background-azul-palido);
+    }
+    .sobre-mi__div {
+        margin-left: 0;
+        border: none;
+        width: 100%;
+        padding: 0;
+        background: none;
+    }
+
+    .sobre-mi__titulo{
+        padding-left: .75rem;
+    }
+    .sobre-mi__descripcion {
+        text-align: none;
+
+        padding-left: .75rem;
+    }
+    
+}
+
+@media screen and (min-width: 768px) {
+    .sobre-mi__div {
+        margin-left: 2.5rem;
+}
+
+}

@@ -1,0 +1,188 @@
+.contacto {
+    background: var(--background-azul-palido);
+}
+
+.contacto__imagen {
+    display: none;
+}
+
+.contacto__formulario-item {
+    width: 90%;
+}
+
+.contacto__pregunta {
+    margin-bottom: 1rem;
+}
+
+.contacto__informacion {
+    margin-bottom: 2.2rem;
+}
+
+.contacto__formulario-item {
+    width: 100%;
+    margin-bottom: 1.2rem;
+}
+
+.igual {
+    border: none;
+    border-bottom: 3px solid var(--background-gris-claro);
+    height: 56px;
+
+}
+
+.email {
+    border: none;
+    border-bottom: 3px solid var(--letras-azul-celeste);
+    height: 56px;
+    
+}
+
+.email::placeholder {
+    color: var(--letras-azul-celeste)
+}
+
+.mensaje {
+    border: none;
+    border-bottom: 3px solid var(--background-gris-claro);
+    resize: none;
+}
+
+.mensaje::placeholder {
+    font-family: var(--raleway);
+    padding: .5rem;
+}
+
+.none {
+    display: none;
+}
+
+
+@media screen and(min-width:768px) {}
+
+@media screen and (min-width: 1024px) {
+
+    .contacto__imagen {
+        display: initial;
+        margin-right: 1rem;
+    }
+
+    .contacto__contenido {
+        display: flex;
+    }
+
+    .contacto__pregunta {
+        margin-bottom: .5rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.contacto {
+    background: var(--background-azul-palido);
+    font-family: var(--raleway);
+    padding: 2rem 0;
+}
+
+.contacto__titulo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.contacto__imagen {
+    margin: 1rem 0;
+}
+
+.contacto__contenido {
+    display: flex;
+}
+
+.contacto__texto {
+    margin: 1rem 0 0 1.2rem;
+    width: auto;
+}
+
+.contacto_pregunta {
+    margin-bottom: 1rem;
+}
+
+.contacto__informacion {
+    margin-bottom: 2.2rem;
+}
+
+.contacto__formulario-item {
+    width: 100%;
+    margin-bottom: 1.2rem;
+}
+
+.igual {
+    border: none;
+    border-bottom: 3px solid var(--background-gris-claro);
+    height: 56px;
+
+}
+
+.email {
+    border: none;
+    border-bottom: 3px solid var(--letras-azul-celeste);
+    height: 56px;
+    color: var(--letras-azul-celeste);
+}
+
+
+.mensaje {
+    border: none;
+    border-bottom: 3px solid var(--background-gris-claro);
+}
+
+@media screen and (max-width:768px) {
+    .contacto__imagen {
+        display: none;
+    }
+
+    .contacto__formulario-item {
+        width: 90%;
+    }
+    
+}
+
+*/

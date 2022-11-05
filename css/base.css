@@ -1,0 +1,163 @@
+:root{
+    --background-blanco: #F5F5F5; 
+    --background-gris-claro: #E8E8E8;
+    --background-azul-palido: #EAF2FD; 
+    --background-rodapie: #FFFFFF; 
+    --letras-ceniza-oscuro: #464646;
+    --letras-blanco: #FFFFFF;
+    --letras-azul-celeste: #2A7AE4;
+    
+
+    --raleway: 'raleway', open-sans;
+
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 1.575rem 0;
+}
+
+.titulos {
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+body {
+    font-family: var(--raleway)
+}
+
+.boton {
+    border: 2px solid var(--letras-azul-celeste);
+    border-radius: 10px;
+    margin-right: .5rem;
+    margin-bottom: .75rem;
+    padding: .5rem 1rem;
+    color: var(--letras-azul-celeste);
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.boton:last-child {
+    background: var(--letras-azul-celeste);
+    color: var(--letras-blanco);
+}
+
+.btn-contacto {
+    background: var(--letras-azul-celeste);
+    color: var(--letras-blanco);
+    border: 2px solid var(--letras-azul-celeste);
+    border-radius: 10px;
+    margin-right: .5rem;
+    margin-bottom: .75rem;
+    padding: .5rem 1rem;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+@media screen and (min-width: 1024px) {
+    .titulos {
+        font-size: 1.5rem;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.boton {
+    padding: .75rem 1rem;
+    border: 3px solid var(--letras-azul-celeste) ;
+    border-radius: 5px;
+    margin-right: .75rem;
+    font-family: var(--raleway);
+    color: var(--letras-azul-celeste);
+    text-decoration: none;
+    
+}
+
+.boton:last-child {
+    background: var(--letras-azul-celeste);
+    color: var(--letras-blanco)
+}
+
+.container {   
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.container2 {
+    width: 80%;
+    margin: 0 auto;
+}
+
+main {
+    margin: 5rem 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .container2 {
+        width: 100%;
+        margin: 0;
+    }
+    
+    main {
+        margin: 0 auto;
+    }
+
+    .boton {
+     font-size: .75rem;
+     padding: .5rem .75rem;
+    }
+}
+*/

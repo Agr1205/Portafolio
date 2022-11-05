@@ -1,0 +1,197 @@
+.habilidades {
+    background: var(--background-gris-claro);
+}
+
+.habilidades__lista {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;    
+}
+
+.habilidades__lista-item {
+    width: 20%;
+    margin-right: .75rem;
+    background: var(--background-blanco);
+    margin-bottom: 1rem;
+    padding: 3rem 3rem .5rem .5rem;
+    border-radius: 10px;
+}
+
+.habilidades__lista-item-hobbies {
+    background: var(--background-blanco);
+    width: 17%;
+    padding: 3rem 3rem .5rem .5rem;
+    text-align: left;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.habilidades__descripcion {
+    font-size: .75rem;
+}
+
+.habilidades__icon {
+    width: 60px;
+}
+
+@media screen and(min-width:768px) {}
+
+@media screen and (min-width: 1024px) {}
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.habilidades {
+    background: var(--background-gris-claro);
+    font-family: var(--raleway);
+    padding: 2rem 0;
+}
+
+.habilidades__titulo {
+    padding: 1rem 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.habilidades__lista {
+    display: flex;
+    justify-content: space-around;  
+}
+
+.habilidades__lista-item {
+    background: var(--background-blanco);   
+    width: 20%;
+    padding: 5rem 3rem .5rem .5rem; 
+    border-radius: 10px;
+}
+
+.habilidades__lista-item-hobbies {
+    background: var(--background-blanco);
+    width: 17%;
+    padding: 5rem 3rem .5rem .5rem;
+    text-align: left;
+    border-radius: 10px;
+    margin-right: 1rem;
+}
+
+.habilidades__descripcion {
+    font-weight: bold;
+    text-align: bottom;
+}
+
+.habilidades__icon {
+    margin-bottom: .5rem;
+}
+
+@media screen and (max-width: 768px) {
+    .habilidades{
+        padding: 0;
+    }
+    
+    .habilidades__lista {
+        height: 100%;
+        flex-wrap: wrap; 
+    }
+
+    .habilidades__lista-item {
+        margin: 0; 
+        margin-bottom: 1rem ;
+        padding: 4rem 3rem .5rem .5rem;    
+    }
+
+    .habilidades__lista-item-hobbies{
+        margin: 0;
+        margin-bottom: 1rem;
+        padding: 4rem 4rem .5rem .5rem;
+    }
+}

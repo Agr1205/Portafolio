@@ -1,0 +1,199 @@
+.formacionAcademica {
+    background: var(--background-azul-palido);
+}
+
+.formacionAcademica__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formacionAcademica__imagen {
+    padding: 3rem;
+    margin: 0 auto;
+    background: var(--letras-blanco);
+    box-shadow: rgba(0, 0, 0, 0.70) 0 10px 15px 0;
+}
+
+.formacionAcademica__descripcion {
+    color: var(--letras-ceniza-oscuro);
+    margin-top: 1.2rem;
+    text-align: left;
+    font-weight: bold;
+
+}
+
+.formacionAcademica__fecha {
+    font-size: .8rem;
+    color: var(--letras-ceniza-oscuro);
+    margin: 1rem 0;
+
+}
+
+
+
+@media screen and (min-width:768px) {
+    .formacionAcademica__list {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.formacionAcademica {
+    background: var(--background-azul-palido);
+    font-family: var(--raleway);
+}
+
+
+.formacionAcademica__titulo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 1rem 0;
+
+}
+
+.formacionAcademica__list{
+    display: flex;
+    padding-right: 0 2rem;
+    justify-content: space-around;
+    align-content: center;
+    
+}
+
+.formacionAcademica__list__item {
+    padding: 2rem; 
+    align-content: flex-end;
+}
+
+.formacionAcademica__imagen {
+    padding: 3rem;
+    margin: 0 auto;
+    background: var(--letras-blanco);
+    box-shadow: rgba(0, 0, 0, 0.70) 0 10px 15px 0;
+}
+
+.formacionAcademica__imagen2 {
+    background: var(--letras-blanco);
+    width: 8rem;
+    padding: 2.2rem 4rem;
+    box-shadow: rgba(0, 0, 0, 0.70) 0 10px 15px 0;
+}
+
+.formacionAcademica__descripcion {
+    color: var(--letras-ceniza-oscuro); 
+    margin-top: 1.2rem;
+    text-align: left;
+    width: 70%;
+    
+}
+
+.formacionAcademica__fecha {
+    font-size: .8rem;
+    color: var(--letras-ceniza-oscuro);
+    margin-top: 1rem;
+
+}
+
+@media screen and (max-width:768px) {
+    .formacionAcademica__list {
+        flex-wrap: wrap;
+    }
+    
+}

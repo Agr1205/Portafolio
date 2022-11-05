@@ -1,0 +1,19 @@
+.rodapie {
+    background: var(--background-blanco);
+}
+
+.rodapie__div {
+    text-align: center;
+    
+}
+
+@media screen and(min-width:768px) {}
+
+@media screen and (min-width: 1024px) {}
+
+/*@media screen and (max-width:768px) {
+    .rodapie__div {
+        padding: 1rem 0;
+    }
+    
+}
